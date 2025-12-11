@@ -1,0 +1,26 @@
+{
+  "name": "zony_digital_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix code run dev",
+    "build": "npm --prefix code run build",
+    "start": "npm --prefix code run start",
+    "lint": "npm --prefix code run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "autoprefix": "^1.0.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}
