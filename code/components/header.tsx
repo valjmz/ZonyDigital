@@ -104,15 +104,14 @@ export function Header() {
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:block">
-            <button
-              onClick={(e) => {
-                e.preventDefault()
-                scrollToSection("#contacto")
-              }}
-              className="bg-[rgb(223,158,101)] hover:bg-[rgb(200,140,85)] text-white font-semibold px-6 py-2.5 rounded-md transition-all duration-300 transform hover:scale-105"
+            <a
+              href="https://wa.me/5215512345678?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[rgb(223,158,101)] hover:bg-[rgb(200,140,85)] text-white font-semibold px-6 py-2.5 rounded-md transition-all duration-300 transform hover:scale-105"
             >
-              CONSULTA GRATIS
-            </button>
+              Contáctanos
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
